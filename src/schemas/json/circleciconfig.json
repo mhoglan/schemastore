@@ -566,6 +566,17 @@
                 }
               }
             }
+          },
+          {
+            "type": "object",
+            "required": ["executor"],
+            "properties": {
+              "executor": {
+                "description": "The executor to use",
+                "type": "string",
+                "additionalProperties": false
+              }
+            }
           }
         ]
       }
